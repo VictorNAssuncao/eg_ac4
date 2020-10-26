@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def fibonacci():
-    fibo = '0, 1'
+    fibo = '0,1'
     i = 1
     limite = 50
     anterior = 0
